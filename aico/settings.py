@@ -23,7 +23,7 @@ TEMPLATE_DIRS = (join(BASE_DIR, 'templates'),)
 SECRET_KEY = '88eun00ea4b3xnx1w+k)a$926#o#5((4-sqxx8!(3khw!2*$z*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 TEMPLATE_DEBUG = True
@@ -84,7 +84,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-LOCAL_STATICFILES = True
+LOCAL_STATICFILES = False
 
 if not LOCAL_STATICFILES:
     DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
