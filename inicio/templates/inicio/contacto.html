@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<!-- CONTENT -->
+<section>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-9">
+			<div class="divider margins"><!-- divider --></div>
+
+				<div id="gmap" class="gmap-half margin-bottom60"><!-- google map --></div>
+				<script type="text/javascript">
+					var	$googlemap_latitude 	= -37.812344,
+						$googlemap_longitude	= 144.968900,
+						$googlemap_zoom			= 13;
+				</script>
+
+			</div>
+				
+			<!-- INFO -->
+			<div class="col-md-3">
+
+				<h2>Visítanos</h2>
+
+				<p>
+					Si ud. tiene interes en nuestro productos o servicios, podemos recibirlo en nuestra oficinas.
+				</p>
+
+				<div class="divider half-margins invisible"><!-- divider --></div>
+
+				<p class="nomargin-bottom">
+					<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección Oficinas:</strong> Av América N35-58 y Mañosca, junto a la marisquería Joqay</span>
+					<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección Planta Industrial:</strong>Pasaje OE9 N47-11 y Fernando Montalvo, Sector Cochapamba Alta</span>
+					<span class="block"><strong><i class="fa fa-phone"></i> Teléfono</strong> 2432181 / 0999491900 - 0995834342</span>
+					<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:mail@yourdomain.com">gerencia@aico.com.ec / aico@aico.com.ec / comex@aico.com.ec</a></span>
+				</p>
+
+				<div class="divider half-margins"><!-- divider --></div>
+
+			</div>
+			<!-- /INFO -->
+
+		</div>
+
+	</div>
+</section>
+<!-- /CONTENT -->
+
+{% endblock content %}

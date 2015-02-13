@@ -1,0 +1,213 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<section class="row">
+	<div class="container">
+		<div class="col-md-6">
+			<div class="owl-carousel controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp"}'>
+				<div>
+					<img class="img-responsive" src="{% static 'assets/images/demo/about_1.jpg' %}" width="555" height="311" alt="">
+				</div>
+				<div>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="http://player.vimeo.com/video/23630702" width="800" height="450"></iframe>
+					</div>
+				</div>
+				<div>
+					<img class="img-responsive" src="{% static 'assets/images/demo/about_2.jpg' %}" width="555" height="311" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<h3>
+				Calidad en cada uno de nuestros productos
+			</h3>
+			<p>AICO es una empresa que fue fundada en 1990 con la idea de ser... acá una introducción a tu empresa.</p>
+			<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem.</p>
+		</div>
+
+	</div>
+</section>
+<!-- /BORN TO BE A WINNER -->
+
+<!-- WHO WE ARE and SKILLS -->
+<section class="row alternate">
+	<div class="container">
+		<div class="col-md-6">
+			<h3> Nuestra <b>filosofía</b></h3>
+
+			<p>Creemos que el Ecuador es un país que camina rápidamente hacia el desarrollo. Nosotros somos un engranaje en el avance de nuestra nación ... </p>
+			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem.</p>
+
+		</div>
+
+		<div class="col-md-6">
+			<h3>Nuestra misión y visión</h3>
+			<div class="toogle">
+				<div class="toggle active">
+					<label>Misión</label>
+					<div class="toggle-content">
+						<p>Transferencia de tecnología  aplicada en la manufactura de productos eléctricos  en el área de   distribución eléctrica de baja y media tensión, control y supervisión de equipos de generación y transmisión eléctrica, repotenciación de equipos con  nuevas tecnologías, brindando  respaldo, seriedad, calidad y seguridad en los productos entregados a sus clientes.</p>
+					</div>
+				</div>
+
+				<div class="toggle">
+					<label>Visión</label>
+					<div class="toggle-content">
+						<p>Convertirse en la compañía de mayor reconocimiento en el área de manufactura de productos eléctricos a nivel nacional, y reconocida por liderar el desarrollo de transferencia de tecnología en el país, con  productos de competencia a nivel internacional. AICO continuará desarrollando y aportando mayor valor agregado nacional  a sus productos, de manera que  maximice los beneficios a sus clientes, basándose en la  ventaja de contar con el respaldo de   producción nacional. El trabajo ético, y el desarrollo profesional y personal de sus empleados, y continua búsqueda por el mejoramiento de sus productos y servicios.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section >
+<!-- /WHO WE ARE and SKILLS -->
+
+
+<!-- parallax -->
+<div class="parallax parallax-1" style="background-image:url(assets/images/demo/other/o2.jpg);">
+	<span class="parallax-overlay"></span>
+
+	<div class="container parallax-content">
+
+		<div class="row">
+			<div class="col-md-5 col-sm-5 col-md-offset-2">
+			
+				<!-- testimonial -->
+				<div class="owl-carousel text-center fsize20" data-plugin-options='{"items": 1, "singleItem": true, "navigation": false, "pagination": true, "autoPlay": true}'>
+
+					<div>
+						<p>Acá puedes poner comentarios de tus clientes satisfechos si quieres.</p>
+						<cite><strong>Cliente1</strong>, PetroAmazonas</cite>
+					</div>
+
+					<div>
+						<p>El domingo para echar las bielas con el Alfonso me acaba de escribir, apuntaraste</p>
+						<cite><strong>Cliente2</strong>, Supermaxi</cite>
+					</div>
+
+					<div>
+						<p>Wararei wararei wararei la tierra del sucu-sucu. También hay como borrar esto si prefieres</p>
+						<cite><strong>Cliente3</strong>, !!!</cite>
+					</div>
+
+				</div>
+				<!-- /testimonial -->
+
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- /parallax -->
+
+
+<!-- counter -->
+<div class="row text-center countTo paddings styleBackgroundColor"><!-- add "styleBackgroundColor" class for colored background and white text OR "dark" for a dark callout -->
+
+	<div class="container">
+		<div class="col-md-3">
+			<strong data-to="13">13</strong>
+			<label>Años de Experiencia</label>
+		</div>
+		<div class="col-md-3">
+			<strong data-to="14">14</strong>
+			<label>Soluciones Eléctricas</label>
+		</div>
+		<div class="col-md-3">
+			<strong data-to="109">109</strong>
+			<label>Clientes Satisfechos</label>
+		</div>
+		<div class="col-md-3">
+			<strong data-to="14000">14000</strong>
+			<label>Watts Generados</label>
+		</div>
+	</div>
+
+</div>
+<!-- /counter -->
+
+
+<section class="container">
+
+	<!-- CUSTOM CONTENT BOX -->
+		<h3>Nuestro <strong>equipo</strong> (esto también podemos borrar)</h3>
+
+		<div class="row">
+			<div class="col-sm-3 col-md-3">
+				<div class="box-content thumbnail text-center">
+					<a href="page-about-me.html" class="item-image">
+						<img class="img-responsive" src="{% static 'assets/images/demo/people/fixed-height/9.jpg' %}" alt="" />
+						<h3>
+							<span>Juan Carlos Celleri</span> <br />
+							<small>Gerente General</small>
+						</h3>
+					</a>
+					<div class="caption text-left">
+						<p>Extraño como el alejo me daba clases de fútbol.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3 col-md-3">
+				<div class="box-content thumbnail text-center">
+					<a href="page-about-me.html" class="item-image">
+						<img class="img-responsive" src="{% static 'assets/images/demo/people/fixed-height/10.jpg' %}" alt="" />
+						<h3>
+							<span>Jessica Doe</span> <br />
+							<small>Developer</small>
+						</h3>
+					</a>
+					<div class="caption text-left">
+						<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis.</p>
+						<a href="#" class="social rounded fa fa-facebook"></a>
+						<a href="#" class="social rounded fa fa-twitter"></a>
+						<a href="#" class="social rounded fa fa-google-plus"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3 col-md-3">
+				<div class="box-content thumbnail text-center">
+					<a href="page-about-me.html" class="item-image">
+						<img class="img-responsive" src="{% static 'assets/images/demo/people/fixed-height/11.jpg' %}" alt="" />
+						<h3>
+							<span>Jessica Doe</span> <br />
+							<small>Design</small>
+						</h3>
+					</a>
+					<div class="caption text-left">
+						<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this template amets sumon.</p>
+						<a href="#" class="social rounded fa fa-facebook"></a>
+						<a href="#" class="social rounded fa fa-twitter"></a>
+						<a href="#" class="social rounded fa fa-google-plus"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-3 col-md-3">
+				<div class="box-content thumbnail text-center">
+					<a href="page-about-me.html" class="item-image">
+						<img class="img-responsive" src="{% static 'assets/images/demo/people/fixed-height/13.jpg' %}" alt="" />
+						<h3>
+							<span>Jessica Doe</span> <br />
+							<small>Director</small>
+						</h3>
+					</a>
+					<div class="caption text-left">
+						<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this template.</p>
+						<a href="#" class="social rounded fa fa-facebook"></a>
+						<a href="#" class="social rounded fa fa-twitter"></a>
+						<a href="#" class="social rounded fa fa-google-plus"></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	<!-- /CUSTOM CONTENT BOX -->
+</section>
+<!-- /CONTENT -->
+{% endblock content %}

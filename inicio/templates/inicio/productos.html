@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<!-- CONTENT -->
+<section>
+	<div class="container">
+
+		<div id="portfolio" class="container">
+
+			<p class="lead">A mi me gusta esta distribución de productos, pero si te parece demasiado compleja podemos poner una más simple</p>
+
+			<ul class="nav nav-pills isotope-filter isotope-filter" data-sort-id="isotope-list" data-option-key="filter">
+				<li data-option-value="*" class="active"><a href="#">Mostrar Todos</a></li>
+				<li data-option-value=".representaciones"><a href="#">Representaciones</a></li>
+				<li data-option-value=".manufacturados"><a href="#">Manufacturados</a></li>
+			</ul>
+
+			<div class="row">
+				<ul class="sort-destination isotope" data-sort-id="isotope-list">
+					<li class="sotope-item col-sm-6 col-md-4 representaciones"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/socol.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>Seccionadores SOCOL</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 representaciones"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/extech.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>EXTECH Instrumentation</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 representaciones"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/lenze.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>LENZE</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 representaciones"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/shneider.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>SHNEIDER ELECTRIC</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 representaciones"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/howest.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>HOWEST Transformadores</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 representaciones"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/hbl.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>HBL-BATTERIES</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 manufacturados"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/var_vel.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>Variadores de Velocidad</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 manufacturados"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/tab_cline.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>Tableros tipo C-Line</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 manufacturados"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/sub_compactas.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>Subestaciones Compactas</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 manufacturados"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/media_tension.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>MCC DE BAJA Y MEDIA TENSIÓN EXTRAIBLES</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 manufacturados"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/celdas_secc.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>Celdas de Seccionamiento</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+					<li class="sotope-item col-sm-6 col-md-4 manufacturados"><!-- item -->
+						<div class="item-box">
+							<figure>
+								<img class="img-responsive" src="{% static 'assets/aico/cajas_nema.png' %}" width="260" height="260" alt="">
+							</figure>
+							<div class="item-box-desc">
+								<h4>Cajas Nema Para Instrumentación</h4>
+								<small class="styleColor">Descripción corta del producto
+								</small>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div><!-- /.masonry-container -->
+		</div>
+	</div>
+</section>
+<!-- /CONTENT -->
+
+{% endblock content %}

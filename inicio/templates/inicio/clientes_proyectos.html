@@ -1,0 +1,163 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<!-- CONTENT -->
+<section>
+	<div class="container">
+		<div class="row">
+			<!-- LEFT COLUMNS -->
+			<div class="col-md-9 col-md-offset-2">
+
+			<h2> Clientes Importantes </h2>
+
+				<div class="row"><!-- item -->
+					<div class="col-md-2"><!-- company logo -->
+						<img src="{% static 'assets/aico/clientes/celec.png' %}" class="img-responsive" alt="company logo">
+					</div>
+					<div class="col-md-10"><!-- company detail -->
+						<h3 class="margin-bottom10">CELEC EP</h3>
+						<ul class="list-inline">
+							<li><i class="fa fa-globe text-success"></i> <a class="text-success" href="#">http://www.celecep.com</a></li>
+						</ul>
+						<p>Corporación Eléctrica del Ecuador. Realización de Tal o Cual trabajo</p>
+					</div>
+				</div><!-- /item -->
+
+				<hr class="half-margins" />
+
+				<div class="row"><!-- item -->
+					<div class="col-md-2"><!-- company logo -->
+						<img src="{% static 'assets/aico/clientes/petroamazonas.png' %}" class="img-responsive" alt="company logo">
+					</div>
+					<div class="col-md-10"><!-- company detail -->
+						<h3 class="margin-bottom10">PetroAmazonas EP</h3>
+						<ul class="list-inline">
+							<li><i class="fa fa-globe text-success"></i> <a class="text-success" href="#">http://www.petroamazonas.com</a></li>
+						</ul>
+						<p>Lorem ipsum eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+					</div>
+				</div><!-- /item -->
+
+				<hr class="half-margins" />
+
+				<div class="row"><!-- item -->
+					<div class="col-md-2"><!-- company logo -->
+						<img src="{% static 'assets/aico/clientes/sertecpet.png' %}" class="img-responsive" alt="company logo">
+					</div>
+					<div class="col-md-10"><!-- company detail -->
+						<h3 class="margin-bottom10">Sertecpet</h3>
+						<ul class="list-inline">
+							<li><i class="fa fa-globe text-success"></i> <a class="text-success" href="#">http://www.sertecpet.com</a></li>
+						</ul>
+						<p>Lorem ipsum eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+					</div>
+				</div><!-- /item -->
+
+				<hr class="half-margins" />
+
+				<div class="row"><!-- item -->
+					<div class="col-md-2"><!-- company logo -->
+						<img src="{% static 'assets/aico/clientes/andespetroleum.png' %}" class="img-responsive" alt="company logo">
+					</div>
+					<div class="col-md-10"><!-- company detail -->
+						<h3 class="margin-bottom10">Andes Petroleum Ecuador LTD</h3>
+						<ul class="list-inline">
+							<li><i class="fa fa-globe text-success"></i> <a class="text-success" href="#">http://www.andespetroleum.com</a></li>
+						</ul>
+						<p>Lorem ipsum eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+					</div>
+				</div><!-- /item -->
+
+				<hr class="half-margins" />
+
+				<div class="row"><!-- item -->
+					<div class="col-md-2"><!-- company logo -->
+						<img src="{% static 'assets/aico/clientes/pacifpetrol.png' %}" class="img-responsive" alt="company logo">
+					</div>
+					<div class="col-md-10"><!-- company detail -->
+						<h3 class="margin-bottom10">Pacifpetrol S.A</h3>
+						<ul class="list-inline">
+							<li><i class="fa fa-globe text-success"></i> <a class="text-success" href="#">http://www.pacifpetrol.com</a></li>
+						</ul>
+						<p>Lorem ipsum eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+					</div>
+				</div><!-- /item -->
+
+			</div>
+			<!-- /LEFT COLUMNS -->
+		</div>
+		<hr class="divider half-margins" />
+	</div>
+</section>
+
+
+<section>
+	<div class="container">
+		<h3>Algunos de nuestros <strong>Proyectos</strong></h3>
+		<div class="row"><!-- mixed: images and videos -->
+
+			<div class="col-sm-4 col-md-4">
+				<div class="box-content thumbnail text-center">
+					<a href="{% static 'assets/aico/proyectos/villanoco.png' %}" class="item-image lightbox" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="{% static 'assets/aico/proyectos/villanoco.png' %}" alt="" />
+						<h3>
+							<span class="fsize13">Sincronización Proyecto Eólico Villonaco</span>
+						</h3>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-md-4">
+				<div class="box-content thumbnail text-center">
+					<a href="{% static 'assets/aico/proyectos/celec.png' %}" class="item-image lightbox" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="{% static 'assets/aico/proyectos/celec.png' %}" alt="" />
+						<h3>
+							<span class="fsize13">Subestación Eléctrica para CELEC</span>
+						</h3>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-md-4">
+				<div class="box-content thumbnail text-center">
+					<a href="{% static 'assets/aico/proyectos/nema.png' %}" class="item-image lightbox" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="{% static 'assets/aico/proyectos/nema.png' %}" alt="" />
+						<h3>
+							<span class="fsize13">Tableros de Automatización Nema 3R Para Ambientes Corrosivos</span>
+						</h3>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-md-4">
+				<div class="box-content thumbnail text-center">
+					<a href="{% static 'assets/aico/proyectos/nema.png' %}" class="item-image lightbox" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="{% static 'assets/aico/proyectos/nema.png' %}" alt="" />
+						<h3>
+							<span class="fsize13">SwG Petroamazonas</span>
+						</h3>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-md-4">
+				<div class="box-content thumbnail text-center">
+					<a href="{% static 'assets/aico/proyectos/otro.png' %}" class="item-image lightbox" data-plugin-options='{"type":"image"}'>
+						<img class="img-responsive" src="{% static 'assets/aico/proyectos/otro.png' %}" alt="" />
+						<h3>
+							<span class="fsize13">Otro Proyecto</span>
+						</h3>
+					</a>
+				</div>
+			</div>
+
+		</div>
+		<!-- /with image name -->
+
+	</div>
+</section>
+
+<!-- /CONTENT -->
+
+{% endblock content %}
